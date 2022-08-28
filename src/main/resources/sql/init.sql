@@ -47,10 +47,6 @@ VALUES (1, 'admin', 'adminln', 'adminmd', 'admin@localhost',
         '$2a$10$qk3x2MdLGQhGZnn8nkP3Z.hSB42ZKK5RTTXXaVgR0BtEmqtvYYhgi', CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0,
         CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0),
        (2, 'user', 'userln', 'usermd', 'user@localhost', '$2a$10$yslPzDN6rzoOcO7uZO0xluk.M6nci/7AEvlB.MvXKFJHOxD./CMXm',
-        CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0),
-       (3, 'user2', 'user2', 'фв', 'user2@localhost', '$2a$10$cDSBVLvJucNjfmzpYPhQ2OVRFx/V9Z5zzG7OY3dVGSP27PP1GPi.q',
-        CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0),
-       (4, 'ololo', 'qwer', 'sdfgh', 'qqq@localhost', '$2a$10$5lde/qj3hWl0exWl0bVZeuW9ey.oQU6vL1hN/1awQe2REGXLqBVnW',
         CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0, CONV('1', 2, 10) + 0);
 
 CREATE TABLE `user_role`
@@ -66,8 +62,6 @@ CREATE TABLE `user_role`
 INSERT INTO `user_role` (`user_id`, `role_id`)
 VALUES (1, 1),
        (1, 2),
-       (2, 2),
-       (3, 2),
-       (4, 2);
+       (2, 2);
 
 -- 2022-08-06 11:57:41
